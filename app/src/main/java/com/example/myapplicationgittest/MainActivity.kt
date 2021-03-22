@@ -40,4 +40,8 @@ class MainActivity : AppCompatActivity() {
         super.onPause()
         //Poznamka
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
 }
