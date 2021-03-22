@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onDestroy() {
+        //Ja nevjem
         super.onDestroy()
     }
 }
